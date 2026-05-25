@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- v1: plain script set, no spacing tuning -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160">
+  <text x="300" y="110"
+        text-anchor="middle"
+        fill="#f1ead8"
+        font-family="'Pinyon Script', 'Allura', 'Apple Chancery', 'Snell Roundhand', cursive"
+        font-size="120"
+        font-weight="400">Panal Capital</text>
+</svg>

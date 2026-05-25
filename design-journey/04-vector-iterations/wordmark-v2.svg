@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- v2: tuned letter-spacing, two-word balance, baseline tuned for descender on 'P' and 'C' -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" preserveAspectRatio="xMidYMid meet">
+  <text x="400" y="135"
+        text-anchor="middle"
+        fill="#f1ead8"
+        font-family="'Pinyon Script', 'Allura', 'Apple Chancery', 'Snell Roundhand', cursive"
+        font-size="128"
+        font-weight="400"
+        letter-spacing="2"
+        style="font-feature-settings: 'liga' 1, 'dlig' 1;">Panal Capital</text>
+</svg>

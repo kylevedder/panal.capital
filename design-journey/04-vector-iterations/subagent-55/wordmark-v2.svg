@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" aria-labelledby="title desc" role="img">
+  <title id="title">Panal Capital stacked wordmark, version 2</title>
+  <desc id="desc">A stacked script wordmark for Panal Capital in warm ivory on a transparent background.</desc>
+  <g fill="#f1ead8" text-anchor="middle"
+     font-family="'Snell Roundhand', 'Apple Chancery', 'Savoye LET', Zapfino, Palatino, serif"
+     font-weight="400"
+     font-style="normal">
+    <text x="360" y="170" font-size="158" letter-spacing="0.8">Panal</text>
+    <text x="360" y="290" font-size="158" letter-spacing="0.8">Capital</text>
+  </g>
+  <path d="M157 318 C236 335 480 335 563 318"
+        fill="none"
+        stroke="#f1ead8"
+        stroke-width="2"
+        stroke-linecap="round"
+        opacity="0.86"
+        vector-effect="non-scaling-stroke" />
+</svg>

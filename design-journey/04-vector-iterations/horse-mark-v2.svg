@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- v2: refined silhouette, flowing mane, articulated legs, closer to prototype board direction -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none" stroke="#f1ead8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- HEAD: muzzle to forehead to back of skull -->
+  <path d="M 478 158
+           C 488 152, 492 144, 488 134
+           C 484 124, 476 118, 466 116
+           C 458 104, 444 96, 430 96
+           C 420 96, 412 100, 406 108" />
+  <!-- jaw and throat -->
+  <path d="M 478 158 C 466 162, 452 162, 442 156 C 434 152, 428 144, 426 134" />
+  <!-- neck top with mane: arched, with wavy mane strokes -->
+  <path d="M 406 108
+           C 388 112, 368 122, 348 138
+           C 332 150, 318 162, 305 172" />
+  <!-- neck underside meeting chest -->
+  <path d="M 426 134 C 410 142, 392 154, 376 168 C 362 180, 350 190, 340 196" />
+  <!-- chest down to forelegs origin -->
+  <path d="M 340 196 C 338 206, 340 216, 344 224" />
+  <!-- back: withers to croup, gently arched -->
+  <path d="M 305 172 C 270 172, 230 168, 195 168 C 175 168, 158 172, 148 184" />
+  <!-- croup to tail base -->
+  <path d="M 148 184 C 142 192, 140 202, 142 210" />
+  <!-- belly (under body) -->
+  <path d="M 344 224 C 320 240, 280 246, 240 244 C 215 242, 195 234, 180 222" />
+  <!-- FRONT LEGS tucked under chest -->
+  <!-- foreleg 1 (far) -->
+  <path d="M 332 226
+           C 336 246, 332 260, 322 268
+           C 314 274, 306 270, 304 262
+           C 302 254, 308 246, 316 240" />
+  <!-- foreleg 2 (near) -->
+  <path d="M 348 230
+           C 354 250, 352 266, 342 274
+           C 332 280, 322 276, 320 266
+           C 318 258, 326 248, 334 244" />
+  <!-- BACK LEGS extended back and down -->
+  <!-- hind leg 1 (far) -->
+  <path d="M 178 218
+           C 172 240, 158 264, 134 286
+           C 118 300, 102 308, 92 304
+           C 86 302, 88 296, 96 290" />
+  <!-- hind leg 2 (near) -->
+  <path d="M 196 224
+           C 196 248, 184 274, 158 298
+           C 140 314, 122 322, 110 320
+           C 102 318, 102 312, 112 304" />
+  <!-- TAIL: flowing back and down -->
+  <path d="M 142 210
+           C 110 214, 80 224, 58 244
+           C 42 258, 36 274, 44 282
+           C 50 288, 60 282, 64 272" />
+  <!-- MANE: a few wavy strokes following neck -->
+  <path d="M 412 110 C 404 100, 402 90, 410 86" />
+  <path d="M 398 116 C 388 106, 386 96, 394 92" />
+  <path d="M 382 126 C 372 116, 370 106, 378 102" />
+  <path d="M 364 138 C 354 130, 352 120, 360 116" />
+  <path d="M 344 152 C 336 146, 334 138, 342 134" />
+  <!-- EYE -->
+  <circle cx="458" cy="128" r="1.8" fill="#f1ead8" stroke="none" />
+  <!-- subtle nostril -->
+  <path d="M 482 150 C 484 148, 486 148, 487 150" />
+</svg>

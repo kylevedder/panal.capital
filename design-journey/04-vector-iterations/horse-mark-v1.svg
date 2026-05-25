@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- v1: first vector pass, blocky proportions, no mane detail, single stroke -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none" stroke="#f1ead8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- body and head outline -->
+  <path d="M 150 200
+           C 140 170, 180 150, 230 145
+           C 290 140, 340 130, 370 115
+           C 400 100, 430 95, 450 105
+           C 470 115, 478 140, 470 155
+           C 462 168, 445 172, 425 170
+           C 408 168, 395 175, 388 185
+           C 380 200, 370 215, 355 220
+           C 320 230, 270 235, 220 230
+           C 190 226, 165 218, 150 200 Z" />
+  <!-- mane -->
+  <path d="M 360 118 C 350 105, 345 95, 355 90
+           M 348 122 C 338 110, 333 100, 342 96
+           M 336 128 C 327 115, 322 108, 330 102" />
+  <!-- tail -->
+  <path d="M 152 195 C 110 200, 75 215, 55 245 C 45 260, 50 275, 65 270" />
+  <!-- front legs tucked -->
+  <path d="M 360 215 C 365 240, 350 255, 335 248 C 320 240, 318 225, 325 215" />
+  <path d="M 340 220 C 345 245, 330 260, 318 252 C 308 244, 305 230, 312 218" />
+  <!-- back legs extended -->
+  <path d="M 195 225 C 175 260, 145 290, 110 310 C 95 318, 85 314, 90 305" />
+  <path d="M 215 228 C 200 268, 170 300, 135 320 C 120 326, 110 322, 115 313" />
+  <!-- eye -->
+  <circle cx="445" cy="125" r="2" fill="#f1ead8" stroke="none" />
+</svg>
