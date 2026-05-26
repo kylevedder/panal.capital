@@ -65,8 +65,7 @@ body {
   color: var(--ivory-muted);
   font-size: clamp(15px, 1.7vw, 18px);
   line-height: 1.65;
-  text-align: justify;
-  text-align-last: justify;
+  text-align: center;
 }
 
 .blurb-line {
@@ -101,8 +100,6 @@ body {
     width: 100%;
     font-size: 13px;
     line-height: 1.55;
-    text-align: center;
-    text-align-last: auto;
     text-wrap: balance;
   }
 
