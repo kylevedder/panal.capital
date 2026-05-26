@@ -22,6 +22,7 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 .landing {
@@ -47,9 +48,9 @@ body {
 }
 
 .horse-mark {
-  width: min(82vw, 570px);
+  width: min(28vw, 150px);
   height: auto;
-  margin-bottom: clamp(42px, 7vh, 74px);
+  margin-bottom: clamp(42px, 7vh, 72px);
 }
 
 .wordmark {
@@ -59,11 +60,11 @@ body {
 }
 
 .blurb {
-  max-width: 470px;
+  max-width: 760px;
   margin: 0;
   color: var(--ivory-muted);
   font-size: clamp(15px, 1.7vw, 18px);
-  line-height: 1.75;
+  line-height: 1.65;
   text-align: center;
 }
 
@@ -77,19 +78,20 @@ body {
   }
 
   .horse-mark {
-    width: calc(100vw - 44px);
-    max-width: 420px;
-    margin-bottom: 42px;
+    width: 100%;
+    max-width: 96px;
+    margin-bottom: 36px;
   }
 
   .wordmark {
-    width: calc(100vw - 44px);
-    max-width: 460px;
-    margin-bottom: 44px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 38px;
   }
 
   .blurb {
-    max-width: 330px;
-    font-size: 15px;
+    max-width: 340px;
+    font-size: 13px;
+    line-height: 1.55;
   }
 }

@@ -21,8 +21,9 @@ This archive preserves the image-model prototypes, vector iterations, and final 
 
 ## Final Assets
 
-- `../assets/prototype-crops/horse-mark-diffusion.png`: current production horse, extracted from the strongest diffusion prototype because the hand-vector pass did not preserve the quality of the generated art.
-- `../assets/prototype-crops/panal-capital-wordmark-diffusion.png`: current production wordmark, extracted from the strongest diffusion prototype for the same reason.
-- `../assets/horse-mark.svg` and `../assets/panal-capital-wordmark.svg`: retained as vector attempts/reference, not currently used by the live page.
+- `../assets/horse-mark-fit.svg`: current production horse, a hard-edge single-path spline reconstruction of the diffusion prototype.
+- `../assets/panal-capital-wordmark-fit.svg`: current production wordmark, a hard-edge single-path spline reconstruction of the diffusion prototype.
+- `../assets/prototype-crops/*.png`: preserved diffusion PNG targets used for fitting and visual comparison.
+- `../assets/horse-mark.svg` and `../assets/panal-capital-wordmark.svg`: retained as earlier vector attempts/reference, not currently used by the live page.
 
-The visible production page now favors fidelity to the original diffusion boards over premature vectorization. A future vector pass should match these PNG assets closely before replacing them.
+The visible production page now uses low-complexity hard-edge SVG reconstructions rather than PNG assets. The fitting artifacts and rejected overfit attempts are preserved under `05-svg-fitting/`.
