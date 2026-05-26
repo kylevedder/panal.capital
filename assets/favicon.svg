@@ -1,15 +1,12 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="600" height="430" viewBox="0 0 600 430"
+ width="512" height="512" viewBox="0 0 512 512"
  preserveAspectRatio="xMidYMid meet">
-<metadata>
-Panal Capital horse favicon.
-</metadata>
-<rect width="600" height="430" fill="#0c1a14"/>
+<title>Panal Capital favicon</title>
+<rect width="512" height="512" fill="#ffffff"/>
+<g transform="translate(17.6 62.2) scale(0.85)">
 <g transform="translate(0.000000,430.000000) scale(0.100000,-0.100000)"
-fill="#f1ead8" stroke="none">
+fill="#000000" stroke="none">
 <path d="M4232 3839 c-87 -15 -156 -44 -257 -110 -112 -72 -166 -84 -251 -55
 -63 21 -71 20 -48 -5 34 -38 95 -61 174 -68 l75 -6 -70 -40 c-196 -113 -339
 -133 -481 -66 -37 17 -69 29 -72 26 -23 -22 154 -136 235 -151 44 -8 42 -20
@@ -82,5 +79,6 @@ c-58 -20 -97 -46 -174 -116 -61 -55 -144 -97 -208 -104 -51 -6 -64 -19 -28
 1864 c-8 -20 -26 -84 -39 -143 -41 -186 -94 -300 -202 -434 -124 -154 -283
 -257 -476 -308 -120 -31 -112 -50 13 -31 145 21 271 86 400 208 180 170 261
 322 304 572 13 76 27 145 31 155 4 10 3 17 -4 17 -7 0 -19 -16 -27 -36z"/>
+</g>
 </g>
 </svg>
