@@ -21,7 +21,8 @@ This archive preserves the image-model prototypes, vector iterations, and final 
 
 ## Final Assets
 
-- `../assets/horse-mark.svg`: production jumping horse SVG, adapted from the gpt-5.5 vector candidate with reduced stroke weight for the landing page.
-- `../assets/panal-capital-wordmark.svg`: production outlined SVG wordmark, no raster embed.
+- `../assets/prototype-crops/horse-mark-diffusion.png`: current production horse, extracted from the strongest diffusion prototype because the hand-vector pass did not preserve the quality of the generated art.
+- `../assets/prototype-crops/panal-capital-wordmark-diffusion.png`: current production wordmark, extracted from the strongest diffusion prototype for the same reason.
+- `../assets/horse-mark.svg` and `../assets/panal-capital-wordmark.svg`: retained as vector attempts/reference, not currently used by the live page.
 
-The final direction favors restraint over literal detail: one deep forest green field, warm ivory vector marks, and the exact blurb requested for the public page.
+The visible production page now favors fidelity to the original diffusion boards over premature vectorization. A future vector pass should match these PNG assets closely before replacing them.

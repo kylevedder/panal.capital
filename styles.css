@@ -32,24 +32,30 @@ body {
 }
 
 .lockup {
-  width: min(100%, 620px);
+  width: min(100%, 980px);
+  max-width: calc(100vw - 48px);
+  min-width: 0;
   display: grid;
   justify-items: center;
   transform: translateY(-2.5vh);
 }
 
+.lockup img {
+  display: block;
+  max-width: 100%;
+  min-width: 0;
+}
+
 .horse-mark {
-  width: clamp(230px, 43vw, 390px);
+  width: min(82vw, 570px);
   height: auto;
-  color: var(--ivory);
-  margin-bottom: clamp(22px, 4.5vh, 42px);
+  margin-bottom: clamp(42px, 7vh, 74px);
 }
 
 .wordmark {
-  width: clamp(270px, 58vw, 520px);
+  width: min(86vw, 900px);
   height: auto;
-  color: var(--ivory);
-  margin-bottom: clamp(22px, 3.8vh, 34px);
+  margin-bottom: clamp(54px, 8vh, 88px);
 }
 
 .blurb {
@@ -71,13 +77,15 @@ body {
   }
 
   .horse-mark {
-    width: min(82vw, 330px);
-    margin-bottom: 28px;
+    width: calc(100vw - 44px);
+    max-width: 420px;
+    margin-bottom: 42px;
   }
 
   .wordmark {
-    width: min(86vw, 380px);
-    margin-bottom: 24px;
+    width: calc(100vw - 44px);
+    max-width: 460px;
+    margin-bottom: 44px;
   }
 
   .blurb {
