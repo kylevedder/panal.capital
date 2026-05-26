@@ -60,15 +60,22 @@ body {
 }
 
 .blurb {
-  max-width: 760px;
+  width: min(80vw, 530px);
   margin: 0;
   color: var(--ivory-muted);
   font-size: clamp(15px, 1.7vw, 18px);
   line-height: 1.65;
-  text-align: center;
+  text-align: justify;
+  text-align-last: justify;
 }
 
-@media (max-width: 520px) {
+.blurb-line {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
   .landing {
     padding-inline: 22px;
   }
@@ -77,13 +84,13 @@ body {
     transform: translateY(-1.5vh);
   }
 
-  .horse-mark {
+  .lockup .horse-mark {
     width: 100%;
     max-width: 96px;
     margin-bottom: 36px;
   }
 
-  .wordmark {
+  .lockup .wordmark {
     width: 100%;
     max-width: 300px;
     margin-bottom: 38px;
@@ -91,7 +98,20 @@ body {
 
   .blurb {
     max-width: 340px;
+    width: 100%;
     font-size: 13px;
     line-height: 1.55;
+    text-align: center;
+    text-align-last: auto;
+    text-wrap: balance;
+  }
+
+  .blurb-line {
+    display: inline;
+    white-space: normal;
+  }
+
+  .blurb-line + .blurb-line::before {
+    content: " ";
   }
 }
