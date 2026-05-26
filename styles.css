@@ -66,11 +66,15 @@ body {
   font-size: clamp(15px, 1.7vw, 18px);
   line-height: 1.65;
   text-align: center;
+  text-align-last: auto;
+  word-spacing: normal;
 }
 
 .blurb-line {
   display: block;
-  width: 100%;
+  width: max-content;
+  max-width: 100%;
+  margin-inline: auto;
   white-space: nowrap;
 }
 
@@ -105,6 +109,7 @@ body {
 
   .blurb-line {
     display: inline;
+    width: auto;
     white-space: normal;
   }
 
