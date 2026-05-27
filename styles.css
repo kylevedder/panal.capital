@@ -6,6 +6,14 @@
   --ivory-muted: rgba(241, 234, 216, 0.86);
 }
 
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("assets/fonts/cmu-serif-500-roman.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -19,7 +27,7 @@ body {
   margin: 0;
   background: var(--green);
   color: var(--ivory);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Computer Modern Serif", "CMU Serif", "Latin Modern Roman", Georgia, "Times New Roman", serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
